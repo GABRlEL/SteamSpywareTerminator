@@ -10,6 +10,8 @@ You can find the instruction by looking up this string in IDA and xref:
 
 <img src="https://i.imgur.com/kWk9Vi6.png">
 
+You can't just terminate or return the thread, but interesting possibilities open up. That function is part of the only function (besides constructor, initiator and terminator/deconstructor) of a virtual table that inherits CScheduledFunction<CSteamEngine>.
+
 'MachineGuid' is collected from registry and SHA1'd, possibly with a "BB3" constant? I know fuck nothing about encryption
 
 <img src="https://i.imgur.com/G2W6vc1.png">
